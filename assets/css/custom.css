@@ -1,0 +1,21 @@
+td {
+	border: 5px solid;
+	border-color: red;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.border-diferente {
+	border: 2px solid;
+	border-color: purple;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#elemento-id {
+	border: 2px solid;
+	border-color: orange;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+}

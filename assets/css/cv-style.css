@@ -1,0 +1,59 @@
+html, body {
+ height: 100%;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#home-section {
+  height: 720px;
+  background: url("../img/portada_zelda.jpg") no-repeat center center fixed;
+
+
+}
+
+.jumbotron {
+  background: transparent;
+  text-align: center;
+}
+
+#puesto {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  letter-spacing: .15em;
+  animation:
+    type 4s steps(60,end);
+}
+
+.jumbotron a {
+  line-height: 33px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0 2px;
+  text-align: center;
+  color: #737373;
+  border: 1px solid #e4e4e4;
+  border-radius: 50%;
+}
+
+.jumbotron a:hover {
+  background: #737373;
+  color: #e4e4e4;
+  border: 1px solid #737373;
+}
+
+
+/* === ANIMATIONS === */
+@keyframes type {
+  from { width: 0}
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
