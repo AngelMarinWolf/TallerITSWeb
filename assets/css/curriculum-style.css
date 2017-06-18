@@ -1,0 +1,41 @@
+/* === NABAR === */
+
+ul .navbar-nav li a {
+  color: white;
+}
+
+.nav li:hover {
+  background: white;
+  color: black;
+}
+
+/* === COVER === */
+
+.jumbotron {
+  text-align: center;
+  background: transparent;
+}
+
+#cover-section {
+  height: 720px;
+  background: url("../img/portada_zelda.jpg") center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron a {
+  font-size: 1.3em;
+  height: 35px;
+  width: 35px;
+  line-height: 33px;
+  border: solid 1px #737373;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #737373;
+}
+
+.jumbotron a:hover {
+  background: #737373;
+  color: white;
+}

@@ -9,8 +9,7 @@ html, body {
 #home-section {
   height: 720px;
   background: url("../img/portada_zelda.jpg") no-repeat center center fixed;
-
-
+  background-size: cover;
 }
 
 .jumbotron {
